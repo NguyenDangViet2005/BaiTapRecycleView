@@ -41,6 +41,10 @@ dependencies {
 
     // RecyclerView + Glide
     implementation(libs.recyclerview)
+    
+    // ViewPager2 and Fragment
+    implementation("androidx.viewpager2:viewpager2:1.0.0")
+    implementation("androidx.fragment:fragment-ktx:1.6.2")
 
     // Test
     testImplementation(libs.junit)
